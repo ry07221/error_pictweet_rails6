@@ -49,8 +49,7 @@ test:
 #
 production:
   <<: *default
-  database: error_pictweet_rails6_production
+  database: pictweet_production
   username: pictweet
   password: <%= ENV['PICTWEET_DATABASE_PASSWORD'] %>
-
 
